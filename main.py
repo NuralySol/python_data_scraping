@@ -68,3 +68,4 @@ print(f"phrase getting using: {phrase}")
 #! getting the other phrase with a different variable 
 phrase_1 = bsobj.find("a", {"name": "1.1.13"}).get_text()
 print(f"phrase_1 getting using: {phrase_1}")
+x
