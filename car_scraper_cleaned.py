@@ -7,7 +7,7 @@ url = "https://classiccars.com/"
 
 response = requests.get(url)
 
-# Check if the request was successful (status code 200) GET = 200. 
+# Check if the request was successful (status code 200) GET = 200. (nested if and for loop code below)
 if response.status_code == 200:
     # Parse the HTML content using bs4 and save it in the variable soup
     soup = BeautifulSoup(response.content, "html.parser")
